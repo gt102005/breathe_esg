@@ -1,0 +1,3 @@
+site_code,billing_period_start,billing_period_end,consumption,unit,tariff,meter_id
+FAC-001,2026-04-01,2026-04-30,15234,kWh,TOU-A,EL-1001
+FAC-002,2026-04-15,2026-05-14,9800,kWh,FLAT,EL-1002

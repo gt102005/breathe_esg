@@ -1,0 +1,23 @@
+[
+  {
+    "expense_type": "Flight",
+    "traveler": "Alice Müller",
+    "departure_airport": "FRA",
+    "arrival_airport": "LHR",
+    "distance_km": 620,
+    "date": "2026-04-11"
+  },
+  {
+    "expense_type": "Hotel",
+    "traveler": "Bob Smith",
+    "hotel_nights": 3,
+    "date": "2026-04-14"
+  },
+  {
+    "expense_type": "Ground Transport",
+    "traveler": "Carol Nguyen",
+    "ground_mode": "Taxi",
+    "ground_distance_km": 18,
+    "date": "2026-04-12"
+  }
+]

@@ -1,0 +1,4 @@
+Werk,Lieferant,Material,Materialnummer,Datum,Menge,Einheit,Kostenstelle,CO2e
+1000,DE123,Diesel EN590,4711,01.04.2026,3000,L,ACCT001,
+1000,DE124,Benzin 95,4712,2026-04-01,1200,L,ACCT002,2772
+2000,DE125,Kantinenbedarf,4713,15.04.2026,50,ST,ACCT003,
