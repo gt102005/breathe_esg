@@ -21,23 +21,62 @@ This repository contains a Django REST backend and a React frontend for ingestin
 
 ## Setup
 
-1. Backend
-   - `cd breathe_esg`
-   - `python -m venv .venv`
-   - `source .venv/bin/activate`
-   - `pip install -r requirements.txt`
-   - `python manage.py migrate`
-   - `python manage.py runserver`
+### Prerequisites
 
-2. Frontend
-   - `cd frontend`
-   - `npm install`
-   - `npm run dev`
+- Python 3.10+ installed
+- Node.js 16+ and npm installed
+- Git installed (optional, if cloning the repo)
 
-3. Sample files
-   - `samples/sap_fuel_sample.csv`
-   - `samples/utility_electricity_sample.csv`
-   - `samples/travel_sample.json`
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-org>/assignment_breatheesg.git
+cd assignment_breatheesg
+```
+
+### 2. Backend setup
+
+```bash
+cd breathe_esg
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+python manage.py migrate
+```
+
+To run the backend server:
+
+```bash
+python manage.py runserver
+```
+
+The backend will start at `http://127.0.0.1:8000/`.
+
+### 3. Frontend setup
+
+Open a new terminal window/tab and run:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend will start on the Vite development server, usually at `http://localhost:5173/`.
+
+### 4. Access the app
+
+- Frontend: `http://localhost:5173/`
+- Backend API: `http://127.0.0.1:8000/api/`
+
+### 5. Sample files
+
+Use the sample data files for ingest testing:
+
+- `samples/sap_fuel_sample.csv`
+- `samples/utility_electricity_sample.csv`
+- `samples/travel_sample.json`
 
 ## Notes
 
